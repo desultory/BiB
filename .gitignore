@@ -1,0 +1,13 @@
+initramfs/*
+*.swp
+*.swo
+__pycache__/*
+*.pyc
+build/*
+*.egg-info/
+build_root/*
+pkgdir/*
+portage_tmpdir/*
+config_root/*
+emerge_logs/*
+portage_logs/*

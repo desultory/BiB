@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "BiB"
+version = "0.1.0"
+authors = [
+  { name="Desultory", email="dev@pyl.onl" },
+]
+description = "Portage binhost in a box"
+readme = "readme.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "zenlib >= 3.1.9",
+    "aiohttp >= 3.10.0",
+]
+
+[project.scripts]
+BiB = "BiB.main:main"
+
+[project.urls]
+Homepage = "https://github.com/desultory/BiB"
+Issues = "https://github.com/desultory/BiB/issues"
